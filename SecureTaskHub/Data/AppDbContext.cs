@@ -9,5 +9,6 @@ namespace SecureTaskHub.Data
         {
         }
         public DbSet<User> Users { get; set; }
+        public DbSet<TodoTask> TodoTasks { get; set; }
     }
 }
